@@ -1,6 +1,6 @@
-Blockchain Technology
+#Blockchain Technology
 
-HashCode
+##HashCode
 
 ## What Is a Hash?
 
