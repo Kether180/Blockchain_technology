@@ -1,6 +1,6 @@
 Blockchain Technology
 
-HashCode
+## HashCode
 
 ## What Is a Hash?
 
@@ -25,13 +25,3 @@ The miner focuses on the nonce, a string of numbers. This number is appended to 
 ## Hashes are used in several parts of a blockchain system.
 
 First, each block contains the hash of the block header of the previous block, ensuring that nothing has been tampered with as new blocks are added. Cryptocurrency mining using proof-of-work (PoW), furthermore, utilizes hashing of randomly generated numbers in order to arrive at a specific hashed value containing a series of leading zeroes. This arbitrary function is resource-intensive, making it difficult for a bad actor to overtake the network.
-
-## Uses of Hash Functions in Blockchain
-
-The blockchain has a number of different uses for hash functions. Some of the most common uses of the hash function in blockchain are:
-
-Merkle Tree: This uses hash functions to make sure that it is infeasible to find two Merkle trees with the same root hash. This helps to protect the integrity of the block header by storing the root hash within the block header and thus protecting the integrity of the transactions.
-Proof of Work Consensus: This algorithm defines a valid block as the one whose block header has a hash value less than the threshold value.
-Digital signatures: Hahs functions are the vital part of digital signatures that ensures data integrity and are used for authentication for blockchain transactions.
-The chain of blocks: Each block header in a block in the blockchain contains the hash of the previous block header. This ensures that it is not possible to change even a single block in a blockchain without being detected. As modifying one block requires generating new versions of every following block, thus increasing the difficulty.
-Thus, it can be concluded hash functions are a vital part of the blockchain technology used to protect the integrity and immutability of the data stored on the blockchain.
